@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book App Project</title>
+    <link rel="icon" type="image/x-icon" href="book-icon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="left-nav">
+            <img src="book-icon.png" alt="">
+            <h3>Book</h3>
+        </div>
+        <div class="right-nav">
+            <label class="switch">
+                <input type="checkbox"   id="switch" checked>
+                <span class="slider round"></span>
+              </label>
+            <!-- <Button onclick="window.location.href = 'form.html';"> -->
+                <button onclick="window.location.href = 'form.html';">
+                <span>Sign Up</span>
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+        </div>
+    </nav>
+     
+    <!-- Main-Body -->
+     <main>
+        <div class="container">
+            <div id="category">
+                <h1 id="title">ALL CATEGORIES</h1>
+            </div>
+            <div id="des"></div>
+        </div>
+    
+    <div id="popup" class="popup">
+        <div class="popup-content">
+          <span class="close">&times;</span>
+          <div class="popup-body"></div>
+        </div>
+      </div>
+            <!-- <div id="books-list"></div> -->
+        </div>
+     </main>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
